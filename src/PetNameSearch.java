@@ -45,7 +45,7 @@ public class PetNameSearch extends HttpServlet {
             // Fill the prepared statement params
             pstmt.setString(1, searchTerm);
             // Execute a SELECT query and get a result set
-            rset = pstmt.executeQuery(sql.toString());
+            rset = pstmt.executeQuery();
 
             // Create a StringBuilder for ease of appending strings
             StringBuilder output = new StringBuilder();
