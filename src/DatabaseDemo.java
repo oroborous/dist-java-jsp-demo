@@ -18,6 +18,7 @@ public class DatabaseDemo extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        // Declare outside the try/catch so the variables are in scope in the finally block
         Connection conn = null;
         Statement stmt = null;
         ResultSet rset = null;
