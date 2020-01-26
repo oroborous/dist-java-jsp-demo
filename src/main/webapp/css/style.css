@@ -1,0 +1,22 @@
+body {
+    background-color: midnightblue;
+    color: lemonchiffon;
+    font-family: "Courier New";
+    font-size: x-large;
+}
+
+input[type="submit"] {
+    background: dodgerblue;
+    color: white;
+    border-style: outset;
+    border-color: dodgerblue;
+    height: 50px;
+    width: 100px;
+    font: bold 15px arial, sans-serif;
+    text-shadow: none;
+
+}
+
+li {
+    list-style-type: disc;
+}
