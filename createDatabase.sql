@@ -23,7 +23,7 @@ insert into pet (nm, age, species_nm) values ('Preston', 2, 'cat');
 
 create table pet_detail
 (
-    pet_id int not null,
+    pet_id int not null unique,
     favorite_toy varchar(100),
     weight int,
     nickname varchar(100),
