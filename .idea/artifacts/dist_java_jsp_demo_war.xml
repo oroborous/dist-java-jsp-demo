@@ -1,14 +1,14 @@
 <component name="ArtifactManager">
-  <artifact type="war" name="dist-java-jdbc-demo:war">
+  <artifact type="war" name="dist-java-jsp-demo:war">
     <output-path>$PROJECT_DIR$/target</output-path>
     <properties id="maven-jee-properties">
       <options>
-        <module>dist-java-jdbc-demo</module>
+        <module>dist-java-jsp-demo</module>
         <packaging>war</packaging>
       </options>
     </properties>
     <root id="archive" name="dist-java-jdbc-demo.war">
-      <element id="artifact" artifact-name="dist-java-jdbc-demo:war exploded" />
+      <element id="artifact" artifact-name="dist-java-jsp-demo:war exploded" />
     </root>
   </artifact>
 </component>

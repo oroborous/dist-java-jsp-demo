@@ -6,7 +6,7 @@
 </head>
 <body>
 <h1>Pet Search</h1>
-<form method="get" action="search">
+<form method="get" action="search2">
     Search by Species <input type="text" name="speciesName"><br/><br/>
     <input type="submit" value="Search">
 </form>

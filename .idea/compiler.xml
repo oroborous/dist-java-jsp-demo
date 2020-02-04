@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="dist-java-jdbc-demo" />
+        <module name="dist-java-jsp-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="dist-java-jdbc-demo" target="11" />
+      <module name="dist-java-jsp-demo" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

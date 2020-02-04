@@ -1,26 +1,27 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="dist-java-jdbc-demo:war exploded">
+  <artifact type="exploded-war" name="dist-java-jsp-demo:war exploded">
     <output-path>$PROJECT_DIR$/target/dist-java-jdbc-demo</output-path>
     <properties id="maven-jee-properties">
       <options>
         <exploded>true</exploded>
-        <module>dist-java-jdbc-demo</module>
+        <module>dist-java-jsp-demo</module>
         <packaging>war</packaging>
       </options>
     </properties>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="dist-java-jdbc-demo" />
+          <element id="module-output" name="dist-java-jsp-demo" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: org.apache.derby:derby:10.14.1.0" />
+          <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
         </element>
       </element>
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/target/dist-java-jdbc-demo/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="dist-java-jdbc-demo/web/Web" />
+      <element id="javaee-facet-resources" facet="dist-java-jsp-demo/web/Web" />
     </root>
   </artifact>
 </component>
