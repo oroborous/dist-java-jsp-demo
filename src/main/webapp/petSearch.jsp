@@ -1,5 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<c:set var="appRoot" value="${appRoot.request.contextPath}"/>
 <html>
 <head>
     <title>Pets</title>
@@ -24,5 +25,6 @@
         </tr>
     </c:forEach>
 </table>
+<a href="${appRoot}/index.jsp">Home</a>
 </body>
 </html>

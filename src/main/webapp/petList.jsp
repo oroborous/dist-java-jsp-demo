@@ -4,6 +4,7 @@
 <head>
     <title>Pets</title>
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <base href="${pageContext.request.contextPath}/"/>
 </head>
 <body>
     <table>
@@ -22,5 +23,7 @@
             </tr>
         </c:forEach>
     </table>
+    <!-- see base tag in head -->
+    <a href="index.jsp">Home</a>
 </body>
 </html>

@@ -2,7 +2,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
-    <title>Page Context</title>
+    <title>Attributes</title>
 </head>
 <body>
 <p><%= request.getAttribute("myCity") %>

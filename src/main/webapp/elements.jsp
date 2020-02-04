@@ -19,7 +19,7 @@
     <title>JSP Elements: <%= new java.util.Date() %></title>
 </head>
 <body>
-    <%@include file="header.jsp"%>
+    <jsp:include page="header.jsp" />
 
     <%!
         public String createTableDetail(int num) {
@@ -30,11 +30,11 @@
     <table>
         <%
             for (int row = 1; row < 5; row++) {
-                out.write("<tr>");
+                out.print("<tr>");
                 for (int col = 1; col < 5; col++) {
-                   out.write(createTableDetail(row * col));
+                   out.print(createTableDetail(row * col));
                 }
-                out.write("</tr>");
+                out.print("</tr>");
             }
         %>
     </table>
